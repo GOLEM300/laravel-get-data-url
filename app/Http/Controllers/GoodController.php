@@ -3,8 +3,6 @@
 namespace App\Http\Controllers;
 
 use App\Repositories\GoodInterface;
-use Illuminate\Http\Request;
-use StockItem;
 
 class GoodController extends Controller
 {
