@@ -1,0 +1,2 @@
+get http://localhost/api/index
+Content-type: application/json
