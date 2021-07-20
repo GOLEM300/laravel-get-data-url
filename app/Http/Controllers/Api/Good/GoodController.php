@@ -16,6 +16,7 @@ class GoodController extends Controller
 
     public function index()
     {
+        $this->goodInteface->getGoodsFromUrl();
         $goodsWithPagination = $this->goodInteface->getGoodsWithPaginate();
         return $goodsWithPagination;
     }

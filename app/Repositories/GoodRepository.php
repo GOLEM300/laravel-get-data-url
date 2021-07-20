@@ -26,4 +26,5 @@ class GoodRepository implements GoodInterface
     {
         return StockItem::paginate(4);
     }
+
 }

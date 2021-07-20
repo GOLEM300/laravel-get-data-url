@@ -15,7 +15,7 @@ class GoodController extends Controller
 
     public function index()
     {
-        $goods = $this->goodInteface->getGoodsFromUrl();
+        $this->goodInteface->getGoodsFromUrl();
         $goods = $this->goodInteface->getGoodsWithPaginate();
         return view('welcome',compact('goods')); 
     }
