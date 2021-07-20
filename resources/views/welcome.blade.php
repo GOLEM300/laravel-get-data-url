@@ -44,7 +44,7 @@
       <th scope="col">Discount</th>
     </tr>
   </thead>
-  @foreach($goods ?? [] as $good)
+  @foreach($goods as $good)
   <tbody>
     <tr>
       <th scope="row">{{$good->id}}</th>
